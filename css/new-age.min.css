@@ -527,3 +527,62 @@ img::-moz-selection{color:#fff;background:0 0}
   }
 }
 
+
+.flip {
+    animation-play-state: running;
+    animation: flip 20s ease-in-out both;
+    
+}
+
+.flip:hover{ 
+}
+
+.blur:hover{
+       animation: blur 2s ease-in-out; 
+}
+
+@-webkit-keyframes blur{
+    0%{
+        filter: blur(0px);
+    }
+    50%{
+        filter: blur(5px);
+    }
+    0%{
+        filter: blur(10px);
+    }
+    
+    
+}
+
+@-webkit-keyframes flip {
+    0%{
+        opacity: 1;
+    }
+
+    
+    25%{
+        transform: rotateZ(180deg);
+        opacity: .5;
+    }
+    
+    
+    50%{
+        transform: rotateZ(0deg);
+        opacity: 1;
+    } 
+    
+    
+    
+    75%{
+        transform: rotateZ(-180deg);
+        opacity: .5;
+    }
+       
+     100%{
+        transform: rotateZ(0deg);
+        opacity: 1;
+    }
+    
+}
+
