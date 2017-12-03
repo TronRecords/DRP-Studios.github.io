@@ -570,9 +570,7 @@ img::-moz-selection{color:#fff;background:0 0}
     50%{
         transform: rotateZ(0deg);
         opacity: 1;
-    } 
-    
-    
+    }   
     
     75%{
         transform: rotateZ(-180deg);
