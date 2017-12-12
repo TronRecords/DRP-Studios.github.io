@@ -254,6 +254,59 @@ img::-moz-selection{color:#fff;background:0 0}
     color: azure; 
     font-size: 20pt;
 }
+
+.bodyMargin{
+    margin: auto;
+}
+
+.serviceBody{
+    color: azure;padding-left: 10%; 
+    padding-right:10%;
+    font-size: 20pt; 
+    text-align: center; 
+    padding-bottom: 5%;
+}
+
+.logo{
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.padService{
+    padding-top: 50px;
+}
+
+.footerCustom{
+    max-height: 150px;
+    margin-top: -100px;
+}
+
+.ext{
+    padding-top: 50px;
+}
+
+.extRow{
+    background: linear-gradient(45deg,#29ABE2,#3AA17E); 
+    margin: auto;
+}
+
+.custHeader{
+    text-align: center; 
+    color: azure; 
+    font-size: 30pt;
+    padding-top: 1%;
+}
+
+.custSoftBody{
+    text-align: center; 
+    color: azure;
+    font-size: 14pt;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
 /* ----------------------------------------------
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
