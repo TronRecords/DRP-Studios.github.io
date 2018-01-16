@@ -225,9 +225,13 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 img::selection{color:#fff;background:0 0}
 img::-moz-selection{color:#fff;background:0 0}
 
+.grey{
+    background-color:rgba(25, 25, 25, .95) 
+}
+
 .rowServices{
     background: linear-gradient(45deg,#63E2FF,#B066FE); 
-    padding-top: 5%;padding-bottom: 5%;    
+    padding-top: 2%;padding-bottom: 2%;    
     margin-right: 0;
     margin-left: 0;
 }
@@ -235,7 +239,6 @@ img::-moz-selection{color:#fff;background:0 0}
 .headingLoud{
     text-align: center;
     color: azure;
-    padding:1%;
     font-size: 50pt;
 }
 
@@ -262,7 +265,7 @@ img::-moz-selection{color:#fff;background:0 0}
 .serviceBody{
     color: azure;padding-left: 10%; 
     padding-right:10%;
-    font-size: 20pt; 
+    font-size: 18pt; 
     text-align: center; 
     padding-bottom: 5%;
 }
